@@ -95,7 +95,6 @@ def update_task(id):
         task.description = data.get('description')
     if 'due_date' in data:
         try:
-            # Convert due_date string to datetime object
             task.due_date = datetime.fromisoformat(data['due_date'])
         except ValueError:
             return jsonify({'error': 'Invalid due date format'}), 400
@@ -113,7 +112,6 @@ def delete_task(id):
 def complete_task(id):
     task = Task.query.get_or_404(id)
     
-    # Toggle the completed status
     task.completed = not task.completed
     
     db.session.commit()
