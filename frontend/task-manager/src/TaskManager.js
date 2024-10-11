@@ -98,7 +98,7 @@ const TaskManager = () => {
     };
 
     return (
-        <div className="container d-flex justify-content-center align-items-center vh-100">
+        <div className="container d-flex justify-content-center align-items-center minHeight:'100vh'">
             <div className="w-50">
                 <h1 className="text-center mb-4">Lista de Tareas</h1>
                 <form onSubmit={editingTaskId ? updateTask : addTask} className="mb-4">

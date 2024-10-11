@@ -2,6 +2,31 @@ Prueba técnica para auxiliar de programador en IPISA
 Lista de tareas
 
 
+---INSTRUCCIONES PARA EJECUTAR
+1- Para comenzar, se debe clonar el repositorio con la instrucción:
+git clone https://github.com/Octavio-Lpz/lista-de-tareas
+
+2- Luego, moverse a la ruta que contiene /lista-de-tareas
+
+3- Después, iniciar un entorno virtual con las intrucción:
+python -m venv venv
+
+4- Para activar el entorno virtual es necesario ejecutar la instrucción:
+source venv/Scripts/activate (Git Bash)
+
+5- Después, moverse a la ruta /lista-de-tareas/backend y ejecutar la instrucción:
+pip install -r requirements.txt
+
+6- Dentro del entrono virtual del backend, ejecutar la instrucción:
+python app.py
+
+7- Moverse a la ruta /lista-de-tareas/frontend/task-manager. Desde allí ejecutar la instrucción:
+npm install
+
+8- Dentro de esa misma ruta, ejecutar la instrucción:
+npm start
+
+
 ---BACKEND
 PREREQUISITOS
 Python: Preferentemente versión 3.6 o más actual
@@ -42,7 +67,7 @@ python app.py
 ---FRONTEND
 PREREQUISITOS
 NodeJS: Preferentemente la última versión. Puede instalarse siguiendo las instrucciones en https://nodejs.org/
-Package Manager: Node incluye npm, pero puede utilizarse otra herramienta como Yarn si lo prefiere.
+Package Manager: Node incluye npm, pero puede utilizarse otra herramienta como Yarn si se prefiere.
 
 Construido con React, usando Bootstrap para hacerlo responsivo y FontAwesome para estilizarlo.
 
