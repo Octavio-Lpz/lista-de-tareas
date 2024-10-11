@@ -3,7 +3,8 @@ Lista de tareas
 
 
 ---INSTRUCCIONES PARA EJECUTAR
-1- Para comenzar, se debe clonar el repositorio con la instrucción:
+
+1- Para comenzar, en una consola se debe clonar el repositorio con la instrucción:
 git clone https://github.com/Octavio-Lpz/lista-de-tareas
 
 2- Luego, moverse a la ruta que contiene /lista-de-tareas
@@ -20,7 +21,7 @@ pip install -r requirements.txt
 6- Dentro del entrono virtual del backend, ejecutar la instrucción:
 python app.py
 
-7- Moverse a la ruta /lista-de-tareas/frontend/task-manager. Desde allí ejecutar la instrucción:
+7- En otra consola, moverse a la ruta /lista-de-tareas/frontend/task-manager. Desde allí ejecutar la instrucción:
 npm install
 
 8- Dentro de esa misma ruta, ejecutar la instrucción:
@@ -28,13 +29,16 @@ npm start
 
 
 ---BACKEND
+
 PREREQUISITOS
+
 Python: Preferentemente versión 3.6 o más actual
 pip: Generalmente incluido con Python, pero puede instalarse siguiendo las instrucciones en https://pip.pypa.io/en/stable/installation/
 
 Construido con Flask, usando SQLAlchemy (SQLite) para el manejo de la base de datos y Flask-CORS para las peticiones cross-origin.
 
 Es necesario instalar lo siguiente:
+
 Flask==3.0.3
 Flask-SQLAlchemy==3.1.1
 Flask-CORS==5.0.0
@@ -65,7 +69,9 @@ python app.py
 
 
 ---FRONTEND
+
 PREREQUISITOS
+
 NodeJS: Preferentemente la última versión. Puede instalarse siguiendo las instrucciones en https://nodejs.org/
 Package Manager: Node incluye npm, pero puede utilizarse otra herramienta como Yarn si se prefiere.
 
@@ -73,10 +79,11 @@ Construido con React, usando Bootstrap para hacerlo responsivo y FontAwesome par
 
 Para iniciar la aplicación, es necesario: 
 - Moverse a la ruta /frontend/task-manager
-- Instalar las dependencias necesarioas ejecutando la instrucción npm install
+- Instalar las dependencias necesarias ejecutando la instrucción npm install
 - Comenzar el servidor de desarrollo ejecutando la instrucción npm start
 
 
 ---EXPLICACIÓN DE DECISIONES
+
 Las decisiones que tomé en tanto los elementos usados al construir este proyecto fueron basadas en la familiaridad que tengo con ellas. Por ejemplo, he tenido oportunidad de revisar muchos más proyectos con Flask que con Django, y Bootstrap siempre ha sido la dependencia que uso para responsividad de webapps.
 Varias otras cosas son nuevas para mi, y decidí usarlas porque eran compatibles con las tecnologías que yo conozco.
